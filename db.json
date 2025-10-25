@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "division": "Structural Engineering",
+    "subDivisions": [
+      {
+        "id": 101,
+        "title": "High-Rise Structural Design",
+        "companies": [
+          "L&T Construction", "Shapoorji Pallonji", "Tata Consulting Engineers",
+          "JLL", "Lodha Group", "KEC International", "Sobha", "Prestige", "Godrej Properties"
+        ],
+        "subjects": [
+          {
+            "id": 10101,
+            "name": "Advanced RCC Design",
+            "concepts": [
+              {
+                "id": 1010101,
+                "title": "Ductile Detailing (IS 13920)",
+                "lesson": "IS 13920 ensures that RC frames can dissipate energy during earthquakes by requiring closely-spaced stirrups, 135° hooks, and minimum column-bar diameters. It limits axial stress (P_u/A_g f_ck ≤ 0.4) and mandates strong-column weak-beam hierarchy.",
+                "quiz": [
+                  { "q": "Maximum allowable axial stress ratio in a ductile column?", "opts": ["0.3", "0.4", "0.5", "0.6"], "ans": 1 },
+                  { "q": "Hook angle for stirrup end as per IS 13920?", "opts": ["90°", "135°", "180°", "45°"], "ans": 1 },
+                  { "q": "Minimum grade of concrete for ductile frame?", "opts": ["M20", "M25", "M30", "M35"], "ans": 2 },
+                  { "q": "Strong-column weak-beam rule avoids which failure?", "opts": ["Soft-storey", "Column sway", "Beam hinge", "P-Δ"], "ans": 0 },
+                  { "q": "Maximum stirrup spacing in critical region?", "opts": ["6 d_b", "8 d_b", "10 d_b", "12 d_b"], "ans": 0 }
+                ]
+              },
+              {
+                "id": 1010102,
+                "title": "Flat-Slab & Shear-Wall Interaction",
+                "lesson": "Flat-slabs give architectural flexibility but suffer from punching shear around columns. Introducing shear-walls reduces inter-storey drift to ≤ 0.12 % (IS 1893). Drop panels & column heads increase punching capacity by 30-40 %.",
+                "quiz": [
+                  { "q": "Primary failure mode of flat-slab under lateral load?", "opts": ["Flexure", "Punching shear", "Deflection", "Axial"], "ans": 1 },
+                  { "q": "Max inter-storey drift for RC building (IS 1893)?", "opts": ["0.4 %", "0.2 %", "0.12 %", "0.08 %"], "ans": 2 },
+                  { "q": "Drop panel increases which capacity?", "opts": ["Flexure", "Punching", "Compression", "Torsion"], "ans": 1 },
+                  { "q": "Shear-wall aspect ratio for cantilever action?", "opts": ["≥ 1", "≥ 2", "≥ 3", "≥ 4"], "ans": 1 },
+                  { "q": "Flat-slab thickness ≥ span / ?", "opts": ["24", "28", "32", "36"], "ans": 2 }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10102,
+            "name": "Wind & Earthquake Dynamics",
+            "concepts": [
+              {
+                "id": 1010201,
+                "title": "Response Spectrum Analysis",
+                "lesson": "IS 1893 provides 5 % damped spectra for rock, medium & soft soils. RSA combines modal responses by SRSS or CQC. For torsionally irregular buildings, accidental eccentricity of ± 5 % of building dimension is added.",
+                "quiz": [
+                  { "q": "Default damping for RSA in IS 1893?", "opts": ["2 %", "5 %", "7 %", "10 %"], "ans": 1 },
+                  { "q": "Which combination for closely-spaced modes?", "opts": ["SRSS", "CQC", "ABS", "SUM"], "ans": 1 },
+                  { "q": "Accidental eccentricity value?", "opts": ["± 3 %", "± 5 %", "± 7 %", "± 10 %"], "ans": 1 },
+                  { "q": "Soft-storey stiffness < ___ of upper?", "opts": ["50 %", "60 %", "70 %", "80 %"], "ans": 2 },
+                  { "q": "Max number of modes to capture ≥ ___ mass?", "opts": ["90 %", "95 %", "99 %", "85 %"], "ans": 0 }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "title": "Bridge Design",
+        "companies": [
+          "L&T Infrastructure", "Afcons", "Tata Projects", "RITES", "IRCON",
+          "WSP India", "AECOM India", "DRA Infracon", "Dilip Buildcon"
+        ],
+        "subjects": [
+          {
+            "id": 10201,
+            "name": "Bridge Engineering",
+            "concepts": [
+              {
+                "id": 1020101,
+                "title": "Balanced Cantilever Construction",
+                "lesson": "Segments 3-5 m long are cast-in-situ or precast and glued with epoxy. Stressing is done stage-wise; top tendons resist negative moment over pier, bottom tendons positive moment in mid-span. Creep & shrinkage induce 15-20 % loss.",
+                "quiz": [
+                  { "q": "Typical segment length in balanced cantilever?", "opts": ["1-2 m", "3-5 m", "6-8 m", "10 m"], "ans": 1 },
+                  { "q": "Epoxy joint thickness?", "opts": ["0.5 mm", "1 mm", "2 mm", "3 mm"], "ans": 1 },
+                  { "q": "Which tendon resists negative moment over pier?", "opts": ["Top", "Bottom", "Diagonal", "Vertical"], "ans": 0 },
+                  { "q": "Primary creep-shrinkage loss range?", "opts": ["5-10 %", "15-20 %", "25-30 %", "35 %"], "ans": 1 },
+                  { "q": "Launching gantry capacity ≈ ?", "opts": ["500 kN", "1000 kN", "2000 kN", "3000 kN"], "ans": 2 }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "division": "Transportation Engineering",
+    "subDivisions": [
+      {
+        "id": 201,
+        "title": "Highway Design",
+        "companies": [
+          "NHAI", "L&T-IDPL", "Dilip Buildcon", "GMR", "GVK", "KNR Construction",
+          "Ashoka Buildcon", "Sadbhav Engineering", "PNC Infratech", "GR Infraprojects"
+        ],
+        "subjects": [
+          {
+            "id": 20101,
+            "name": "Highway Geometric Design",
+            "concepts": [
+              {
+                "id": 2010101,
+                "title": "Sight Distance & OSD",
+                "lesson": "Stopping sight distance (SSD) = 0.278 V t + V² / 254 f. For 100 km/h on wet pavement (f = 0.35) SSD ≈ 185 m. Overtaking sight distance (OSD) = 0.278 V t + 2 s + 0.278 V s; s = 0.2 V + 6.",
+                "quiz": [
+                  { "q": "SSD formula first term represents?", "opts": ["Braking distance", "Reaction distance", "Safety margin", "Gradient correction"], "ans": 1 },
+                  { "q": "OSD at 80 km/h ≈ ?", "opts": ["300 m", "400 m", "500 m", "600 m"], "ans": 2 },
+                  { "q": "f value for wet pavement?", "opts": ["0.15", "0.25", "0.35", "0.45"], "ans": 2 },
+                  { "q": "Minimum OSD is ___ times SSD?", "opts": ["2", "3", "4", "5"], "ans": 2 },
+                  { "q": "Gradient correction factor for 4 % upgrade?", "opts": ["+8 %", "-8 %", "+12 %", "-12 %"], "ans": 0 }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "title": "Urban Traffic & ITS",
+        "companies": [
+          "WSP India", "Mott MacDonald", "EY", "KPMG", "Uber India", "Siemens Mobility",
+          "Jacobs", "Lea Associates", "Cisco India", "Alstom India"
+        ],
+        "subjects": [
+          {
+            "id": 20201,
+            "name": "Intelligent Transport Systems",
+            "concepts": [
+              {
+                "id": 2020101,
+                "title": "Adaptive Signal Control",
+                "lesson": "SCOOT splits cycle every 0.5 s based on upstream loop detectors; SCATS adjusts every 3-5 min. Both reduce delay 15-25 %. Indian cities use MOVA (UK) and POLIS (IIT-M) under Smart Cities mission.",
+                "quiz": [
+                  { "q": "SCOOT updates splits every ___ s?", "opts": ["1", "0.5", "2", "5"], "ans": 1 },
+                  { "q": "Which parameter is NOT optimised by SCATS?", "opts": ["Cycle", "Offset", "Phase", "Speed"], "ans": 3 },
+                  { "q": "Average delay reduction by adaptive control?", "opts": ["5-10 %", "15-25 %", "30-40 %", "50 %"], "ans": 1 },
+                  { "q": "MOVA stands for?", "opts": ["Microprocessor Optimised Vehicle Actuation", "Mobile Vehicle Actuation", "Multi-objective Vehicle Algorithm", "Motorway Optimisation"], "ans": 0 },
+                  { "q": "Detector occupancy threshold for extension?", "opts": ["2 %", "5 %", "10 %", "20 %"], "ans": 1 }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "division": "Water Resources Engineering",
+    "subDivisions": [
+      {
+        "id": 301,
+        "title": "Storm-water & Flood Modelling",
+        "companies": [
+          "WAPCOS", "Mott MacDonald", "Black & Veatch", "AECOM India", "ITD Cementation",
+          "SPML Infra", "Doshion", "VA Tech Wabag", "IIT Madras incubated start-ups"
+        ],
+        "subjects": [
+          {
+            "id": 30101,
+            "name": "Urban Drainage Modelling",
+            "concepts": [
+              {
+                "id": 3010101,
+                "title": "SWMM 5 Model Setup",
+                "lesson": "Sub-catchment width W = A / (0.5 P) where P is overland-flow length. Manning n for asphalt = 0.015, concrete 0.012, lawns 0.24. Runoff coefficient C = 0.9 for CBD, 0.3 for parks. Use 5-min Chicago storm for IDF.",
+                "quiz": [
+                  { "q": "Manning n for asphalt roads?", "opts": ["0.012", "0.015", "0.02", "0.03"], "ans": 1 },
+                  { "q": "Formula for sub-catchment width W?", "opts": ["A / P", "A / (0.5 P)", "A / (2 P)", "P / A"], "ans": 1 },
+                  { "q": "C value for CBD land-use?", "opts": ["0.3", "0.5", "0.7", "0.9"], "ans": 3 },
+                  { "q": "Time-step for dynamic wave?", "opts": ["1 s", "5 s", "15 s", "60 s"], "ans": 1 },
+                  { "q": "Which solver for pressurized flow?", "opts": ["Steady", "Kinematic", "Dynamic wave", "None"], "ans": 2 }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "division": "Geotechnical Engineering",
+    "subDivisions": [
+      {
+        "id": 401,
+        "title": "Deep Foundations",
+        "companies": [
+          "L&T GeoStructure", "Keller India", "Bauer India", "Tata Projects", "GHD India",
+          "AECOM", "AFCONS", "ITD Cementation", "Simplex Infrastructures"
+        ],
+        "subjects": [
+          {
+            "id": 40101,
+            "name": "Pile Foundation Design",
+            "concepts": [
+              {
+                "id": 4010101,
+                "title": "Pile Load Test Interpretation",
+                "lesson": "IS 2911 specifies initial test (2 × design load) and routine test (1.5 ×). Davisson offset limit = 0.15 in + PL / AE. For 600 mm dia pile, 30 m long, if settlement at 2 × DL > 12 mm, pile is unacceptable.",
+                "quiz": [
+                  { "q": "Routine test load factor?", "opts": ["1.2", "1.5", "2.0", "2.5"], "ans": 1 },
+                  { "q": "Davisson offset constant term (inches)?", "opts": ["0.1", "0.15", "0.2", "0.25"], "ans": 1 },
+                  { "q": "Acceptable settlement at 2×DL for 600 mm pile?", "opts": ["≤ 6 mm", "≤ 12 mm", "≤ 18 mm", "≤ 24 mm"], "ans": 1 },
+                  { "q": "Initial test is carried out on how many piles?", "opts": ["1 %", "2 %", "5 %", "10 %"], "ans": 0 },
+                  { "q": "Elastic settlement component formula?", "opts": ["PL/AE", "PL²/AE", "P²L/AE", "PL/2AE"], "ans": 0 }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "division": "Environmental & Water/Wastewater",
+    "subDivisions": [
+      {
+        "id": 501,
+        "title": "Water & Wastewater Treatment",
+        "companies": [
+          "VA Tech Wabag", "Thermax", "Ion Exchange", "Suez India", "Doshion",
+          "Veolia", "SPML Infra", "Triveni Engineering", "GE Water"
+        ],
+        "subjects": [
+          {
+            "id": 50101,
+            "name": "Activated Sludge Process",
+            "concepts": [
+              {
+                "id": 5010101,
+                "title": "F/M Ratio & Sludge Age",
+                "lesson": "F/M = BOD kg / MLSS kg d. For conventional ASP 0.2-0.4 d⁻¹. Sludge age θc = V X / Qw Xr. Increase θc → nitrification (θc > 8 d at 20 °C).",
+                "quiz": [
+                  { "q": "Typical F/M for conventional ASP?", "opts": ["0.05-0.1", "0.2-0.4", "0.6-0.8", "1.0-1.2"], "ans": 1 },
+                  { "q": "θc for nitrification at 20 °C?", "opts": ["> 3 d", "> 5 d", "> 8 d", "> 15 d"], "ans": 2 },
+                  { "q": "Formula for sludge age?", "opts": ["V X / Qw Xr", "V / Qw", "X / Xr", "Qw Xr / V X"], "ans": 0 },
+                  { "q": "Low F/M leads to?", "opts": ["Bulking", "Nitrification", "Foaming", "Low MLSS"], "ans": 1 },
+                  { "q": "High F/M leads to?", "opts": ["Poor settling", "High SVI", "Incomplete BOD removal", "All"], "ans": 3 }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "division": "Construction Engineering & Management",
+    "subDivisions": [
+      {
+        "id": 601,
+        "title": "Project Planning & BIM",
+        "companies": [
+          "L&T Construction", "Tata Projects", "Shapoorji Pallonji", "Capacité́", "WSP",
+          "Jacobs", "AECOM", "HCC", "NCC", "Punj Lloyd"
+        ],
+        "subjects": [
+          {
+            "id": 60101,
+            "name": "4-D / 5-D BIM",
+            "concepts": [
+              {
+                "id": 6010101,
+                "title": "Cost-Loaded 5-D Schedule",
+                "lesson": "5-D = 3-D + Time + Cost. Export quantities from Revit → Navisworks → Primavera P6. Assign unit rates (RSMeans or SSR 2025). Earned-value (BCWP) auto-generated per model element. Cloud sync via BIM 360 Glue.",
+                "quiz": [
+                  { "q": "5th D in 5-D BIM stands for?", "opts": ["Quality", "Cost", "Safety", "Carbon"], "ans": 1 },
+                  { "q": "Which software links Revit to P6?", "opts": ["Navisworks", "SketchUp", "Tekla", "Rhino"], "ans": 0 },
+                  { "q": "BCWP is also called?", "opts": ["ACWP", "BCWS", "Earned Value", "Planned Value"], "ans": 2 },
+                  { "q": "Cost data source for India?", "opts": ["RSMeans", "SSR", "ENR", "BCIS"], "ans": 1 },
+                  { "q": "Cloud platform for BIM 360?", "opts": ["AWS", "Azure", "Autodesk Construction Cloud", "Google Cloud"], "ans": 2 }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
